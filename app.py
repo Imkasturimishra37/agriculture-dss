@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.tree import DecisionTreeClassifier
 
 # ---------------- LOAD DATA ----------------
-df = pd.read_csv(r"C:\Users\ADMIN\Desktop\project\agriculture_dss\Crop_recommendation.csv")
+df = pd.read_csv(r"Crop_recommendation.csv")
 
 # ---------------- CROP MODEL ----------------
 X = df[['N','P','K','temperature','humidity','ph','rainfall']]
